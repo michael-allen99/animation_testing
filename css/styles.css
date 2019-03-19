@@ -5,11 +5,47 @@
     font-size: 12px;
 } 
 
+#margin {
+    width: 80%;
+    margin: 0 auto;
+}
+
 body {
     background-color: #2a3242;
 }
 
-h1,h2,h3,h4,h5,h6,p {
-    color: white;
+.hero header {
+    text-align: center;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 500px;
+    height: 100px;
+    margin: auto;
 }
+
+.hero {
+    height: 100vh;
+}
+.buttons {
+    height: 100vh;
+    background-color: white;
+}
+
+.hero h1 {
+   font-size: 36px; 
+   font-family: 'ZCOOL XiaoWei', serif;
+   margin-bottom: 20px;
+   color: #ff8340;
+   
+}
+.hero p {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+}
+
+
 
